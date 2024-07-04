@@ -1,0 +1,25 @@
+# Ignore build artifacts
+.build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcodeproj
+*.log
+
+# Ignore dependency directories
+.swiftpm/
+Packages/
+
+# Ignore user-specific files
+*.swp
+*~
+.DS_Store
+
+# Ignore binary files
+*.o
+*.a
+*.so
+*.dylib
+
+# Ignore other OS generated files
+Thumbs.db
