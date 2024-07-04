@@ -1,0 +1,3 @@
+// Release configuration settings
+SWIFT_OPTIMIZATION_LEVEL = -Owholemodule
+ENABLE_NS_ASSERTIONS = NO
