@@ -1,0 +1,8 @@
+# Patch Notes
+
+## Version 1.0.1
+- Fixed minor bugs in TaskScheduler.
+- Improved performance monitoring in PerformanceMonitor.
+
+## Version 1.0.0
+- Initial release of swift-corelibs-multitasking.
