@@ -9,14 +9,19 @@
 
    git clone https://github.com/apple/swift-corelibs-multitasking.git
    cd swift-corelibs-multitasking
-Build the project:
+   
+2. Build the project:
 
 swift build
-Running Tests
+
+## Running Tests
+
 Run the tests:
 
 swift test
-Using the Library
+
+## Using the Library
+
 Import the Multitasking module in your Swift project:
 
 import Multitasking
