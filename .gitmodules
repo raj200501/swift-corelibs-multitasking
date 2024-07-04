@@ -1,0 +1,3 @@
+[submodule "external/module"]
+    path = external/module
+    url = https://github.com/username/module.git
