@@ -63,7 +63,7 @@ Explore the examples directory for various use cases and advanced scenarios demo
 This project is licensed under the Apache License, Version 2.0. See LICENSE for more details.
 
 
-## ✅ Verified Quickstart (Codex)
+## ✅ Verified Quickstart
 The following steps were executed on a clean checkout in this environment:
 
 ```bash
