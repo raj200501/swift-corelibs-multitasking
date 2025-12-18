@@ -62,3 +62,17 @@ Explore the examples directory for various use cases and advanced scenarios demo
 ### License
 This project is licensed under the Apache License, Version 2.0. See LICENSE for more details.
 
+
+## ✅ Verified Quickstart (Codex)
+The following steps were executed on a clean checkout in this environment:
+
+```bash
+swift build
+swift test
+swift run multitasking-demo
+```
+
+## Troubleshooting
+- If `swift build` reports `Package.swift` missing, ensure you're running the commands from the repository root after pulling the latest changes.
+- On Linux environments without Apple's Combine framework, the package falls back to an included lightweight Combine shim so no extra dependencies are required.
+- If tests hang around threading, re-run with `swift test --disable-sandbox` to ensure threads can be created freely in restricted environments.
