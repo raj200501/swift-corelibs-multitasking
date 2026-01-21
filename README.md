@@ -76,3 +76,32 @@ swift run multitasking-demo
 - If `swift build` reports `Package.swift` missing, ensure you're running the commands from the repository root after pulling the latest changes.
 - On Linux environments without Apple's Combine framework, the package falls back to an included lightweight Combine shim so no extra dependencies are required.
 - If tests hang around threading, re-run with `swift test --disable-sandbox` to ensure threads can be created freely in restricted environments.
+
+## Quickstart (60 seconds)
+```bash
+swift build
+swift test
+swift run multitasking-demo
+```
+
+## Demo
+```bash
+swift run multitasking-demo --demo
+```
+
+## Verification
+```bash
+./scripts/verify.sh
+```
+
+## Project structure
+- `Sources/Multitasking`: Core library implementation.
+- `Sources/multitasking-demo`: Demo CLI executable.
+- `tests/core`: XCTest suite for core functionality and observability utilities.
+- `docs`: Architecture, demo, security, and baseline notes.
+- `scripts`: Developer tools (verify, lint, doctor).
+
+## Design decisions
+- Additive enhancements are opt-in to avoid changing default behavior.
+- Observability utilities run in-process and do not require external services.
+- Demo mode uses a temporary directory and avoids network access.

@@ -34,7 +34,9 @@ let package = Package(
                 "core/TaskTests.swift",
                 "core/TaskSchedulerTests.swift",
                 "core/ThreadManagerTests.swift",
-                "core/PerformanceMonitorTests.swift"
+                "core/PerformanceMonitorTests.swift",
+                "core/ObservabilityTests.swift",
+                "core/SmokeTests.swift"
             ]
         )
     ]
