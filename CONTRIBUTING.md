@@ -31,3 +31,25 @@ If you find a bug or want to request a feature, please open an issue on GitHub.
 ## License
 
 By contributing to swift-corelibs-multitasking, you agree that your contributions will be licensed under the same license as the project.
+
+## Local Development
+
+### Setup
+```bash
+./scripts/doctor.sh
+```
+
+### Run Tests
+```bash
+swift test
+```
+
+### Verify (All Checks)
+```bash
+./scripts/verify.sh
+```
+
+### Demo Mode
+```bash
+swift run multitasking-demo --demo
+```
